@@ -58,7 +58,29 @@ body{
     padding-left: 22px;
 }
 
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+    background-color: transparent;}
 
+    .custom-navbar .nav li a:hover {
+        background-color: #29ca8e;
+        color: #ffffff;
+        border-radius: 20px;
+    }    
+    .custom-navbar .nav li.activ>a {
+        background-color: #29ca8e;
+        color: #ffffff;
+    }   
+    .custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+        background-color: transparent !important;
+    } 
+    .custom-navbar .navbar-toggle .icon-bar {
+    background: #252525;
+    border-color: transparent ;
+}
+.navbar-collapse.collapse {background:#fff;}
 /* .custom-navbar {
     background: #ffffff;
     border-top: 5px solid #29ca8e;
@@ -142,7 +164,7 @@ body{
 
 .icone-bar {
   color:#29ca8e; */
-}
+
 .entry-form{
     background:rgb(8, 8, 8);
     border-radius: 100%;
