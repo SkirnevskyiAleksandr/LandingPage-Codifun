@@ -81,6 +81,17 @@ body{
     border-color: transparent ;
 }
 .navbar-collapse.collapse {background:#fff;}
+
+/*slider*/
+/*downSlider*/
+#feature {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fa {
+    color: #2e2eb8;
+}
 /* .custom-navbar {
     background: #ffffff;
     border-top: 5px solid #29ca8e;
