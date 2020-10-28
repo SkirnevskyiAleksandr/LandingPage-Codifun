@@ -83,6 +83,46 @@ body{
 .navbar-collapse.collapse {background:#fff;}
 
 /*slider*/
+
+.item{
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.caption{position: absolute;
+top: 30%;}
+.section-btn {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+  }
+  .section-btn:hover,
+  .section-btn:active {
+    background-color: #fff;
+    color: #000;
+  }
+.home-slider .item-first{
+    background-image: url(./images/owlCarusel1.jpg);
+    background-size: cover;
+   
+}
+.home-slider .item-second{
+    background-image: url(./images/owlCarusel2.jpg);
+    background-size: cover;
+}
+.home-slider .item-third{
+    background-image: url(./images/owlCarusel3.jpg);
+    background-size:cover;
+}
+
 /*downSlider*/
 #feature {
     padding-top: 2rem;
@@ -230,27 +270,7 @@ body{
 
 
 /*slider*/
-body{overflow-x: hidden;}
-.item{
-    height: 100vh;
-    color: white;
-    position: relative;
-}
-.caption{position: absolute;
-top: 30%;}
 
-.home-slider .item-first{
-    background-image: url(./images/slider1.jpg);
-    
-}
-.home-slider .item-second{
-    background-image: url(./images/slider2.jpg);
-    
-}
-.home-slider .item-third{
-    background-image: url(./images/slider3.jpg);
-    
-}
 .navbar{
     height: 60px;
 }
