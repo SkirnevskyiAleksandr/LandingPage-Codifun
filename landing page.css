@@ -6,7 +6,13 @@ body{
 .section-title small{
     display: block;
 }
-
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 /*navbar*/
 .navbar-fixed-top{
     position: fixed;
@@ -132,6 +138,82 @@ top: 30%;}
 .fa {
     color: #2e2eb8;
 }
+
+/*about company*/
+.cir{width: 30px;
+height: 30px;}
+.circle{
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;   
+    background-color:#29ca8e;
+    padding: 0%;}
+.circle .fa{color:#ffffff;}
+
+.about-info,.fiqure,.entry-form{
+    margin: 50px auto;
+}
+#about{
+    padding-top: 40px;
+
+}    
+
+.entry-form{
+    background:rgb(8, 8, 8);
+    border-radius: 100%;
+    text-align:center;
+    padding:6em;
+    width: 450px;
+    height: 450px;
+}
+.entry-form h2{
+    color:#ffffff;
+    margin:0;
+}
+.entry-form .form-control{
+    background: transparent;
+    border:0;
+    border-bottom:1px solid;
+    border-radius:0;
+    box-shadow:none;
+    height: 45px;
+    margin: 10px 0;
+}
+.entry-form .submit-btn{
+    background: #ffffff;
+    border-radius: 50px;
+    border:0;
+    color: #252020;
+    width: 50%;
+    height: 50px;
+    margin: 30px auto;
+    margin-bottom: 10px;
+}
+.entry-form .submit-btn:hover{
+    background: #29ca8e;
+    color: #ffffff;
+}
+@media only screen and (max-width: 480px) {
+    h1 {
+    font-size: 2em;
+    }
+    #home h3 {
+    font-size: 14px;
+    }
+    .entry-form {
+      border-radius: 0;
+      padding: 2em;
+      max-width: 100%;
+      max-height: 100%;
+      width: inherit;
+      height: inherit;
+    }
+}
+
+/*uor teachers*/
+#our-teachers{padding-top: 60px;}
 /* .custom-navbar {
     background: #ffffff;
     border-top: 5px solid #29ca8e;
@@ -216,57 +298,7 @@ top: 30%;}
 .icone-bar {
   color:#29ca8e; */
 
-.entry-form{
-    background:rgb(8, 8, 8);
-    border-radius: 100%;
-    text-align:center;
-    padding:6em;
-    width: 450px;
-    height: 450px;
-}
-.entry-form h2{
-    color:#ffffff;
-    margin:0;
-}
-.entry-form .form-control{
-    background: transparent;
-    border:0;
-    border-bottom:1px solid;
-    border-radius:0;
-    box-shadow:none;
-    height: 45px;
-    margin: 10px 0;
-}
-.entry-form .submit-btn{
-    background: #ffffff;
-    border-radius: 50px;
-    border:0;
-    color: #252020;
-    width: 50%;
-    height: 50px;
-    margin: 30px auto;
-    margin-bottom: 10px;
-}
-.entry-form .submit-btn:hover{
-    background: #3f51b5;
-    color: #ffffff;
-}
-@media only screen and(max-width:480px){
-    h1{
-        font-size: 2em;
-    }
-    #home h3{
-        font-size: 14px;
-    }
-    .entry-form{
-        border-radius: 0;
-        padding: 2em;
-        max-width:100%;
-        max-height: 100%;
-        width: inherit;
-        height: inherit;
-    }
-}
+
 
 
 /*slider*/
