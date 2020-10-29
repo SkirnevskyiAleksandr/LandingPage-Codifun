@@ -230,8 +230,8 @@ height: 30px;}
     width: 30px;
     line-height: 30px;
     text-align: center;
-
 padding: 0;}
+
 .courses-thumb{
     background: #f9f9f9;
     position:relative;
@@ -290,7 +290,7 @@ padding: 0;}
 float: right;
 margin-top:10px;
 }
-.courses-prise span{
+.courses-price span{
     background: #29ca8e;
     border-radius: 2px;
     color:#ffffff;
@@ -328,7 +328,8 @@ margin-top:10px;
         height: 60px;
         margin-right: 15px;
     }    
-
+.img-fluid{max-width: 100%;
+height: auto;}
 /* .custom-navbar {
     background: #ffffff;
     border-top: 5px solid #29ca8e;
