@@ -60,6 +60,9 @@ body {
     margin-left: auto;
 }
 /*navbar*/
+.navbar-brand{
+    padding-left: 15px;
+}
 .navbar-fixed-top{
     position: fixed;
     top: 0;
