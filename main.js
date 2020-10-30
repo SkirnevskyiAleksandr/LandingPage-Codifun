@@ -29,10 +29,7 @@ $('.owl-courses').owlCarousel({
   smartSpeed: 1000,
   dots: false,
   nav:false,
-  navText: [
-      '<i class="fa fa-angle-left"></i>',
-      '<i class="fa fa-angle-right"></i>'
-  ],
+  navText: false,
   responsiveClass: true,
   responsive: {
     0: {
@@ -47,6 +44,7 @@ $('.owl-courses').owlCarousel({
 $('.owl-client').owlCarousel({
 animateOut: 'fadeOut',
 loop: true,
+dots:false,
 autoHeight:true,
 autoplayHoverPause: false,
 autoplay: false,
@@ -56,6 +54,7 @@ responsive: {
 0: {
   items: 1,
 },
+490:{items:2,},
 1000: {
   items: 3,
 }
