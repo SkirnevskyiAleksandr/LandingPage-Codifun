@@ -136,11 +136,14 @@ body {
     border-color: transparent ;
 }
 .navbar-collapse.collapse {background:#fff;}
+.navbar-toggler{
+    margin-right: 15px;
+}
 
 /*slider*/
 
 .item{
-    height: 50vh;
+    height: 100vh;
     color: white;
     position: relative;
 }
@@ -265,6 +268,7 @@ height: 30px;}
 #our-teachers{padding-top: 70px;}
 
 /*coursese*/
+#courses .item{height: 50vh;}
 #courses {padding-top: 70px;}
 #courses .section-title{
     text-align: center;
