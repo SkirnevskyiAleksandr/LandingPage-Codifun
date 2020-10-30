@@ -1,7 +1,51 @@
 /*main*/
 @import url('https//fonts.googleapis.com/css?family=Muli:300,700 | Nunito');
-body{
+body {
+    background: #ffffff;
+    font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
+    padding-top: 70px;
+  }
+  h2 {
+    color: #353535;
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+  .section-title{
+      text-align: center;
+  }
+  .section-title small{
+      display:block;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color:#353535;
+  }
+  .caption h3{color: #d9d9d9;
+      
+  }
+  h3 a {
+    color:yellowgreen;
+    text-decoration:underline;
+  }
+  p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  a {
+    color: #252525;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    line-height: inherit;
+  }
 }
 .section-title small{
     display: block;
@@ -212,7 +256,7 @@ height: 30px;}
     }
 }
 
-/*uor teachers*/
+/*our teachers*/
 #our-teachers{padding-top: 60px;}
 
 /*coursese*/
@@ -418,7 +462,7 @@ height: auto;}
 
 
 /*slider*/
-
+/* 
 .navbar{
     height: 60px;
 }
@@ -474,11 +518,31 @@ padding-left: 20px;
 .section{
     position: relative;
     padding: 100px 0;
-}
+} */
 
 
     /*contact us*/
-    #contact {background: rgb(42, 42, 248);}
+    #contact .container{padding-top: 100px;}
+    #contact .row {
+    background: rgb(42, 42, 248);
+    }
+    #contact .section-title{
+        margin:20px 50% 20px 15px;
+        border:solid yellowgreen 3px;
+    }
+    #contact .section-title h2{
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.1;
+    padding-top:0;
+    padding-bottom: 0;
+    margin:0;
+    }
+#contact .form-control{
+    margin-top: 10px;
+} 
     #contact-form input[type="submit"]
         {border-radius: 50px;
         border: 1px solid transparent;}
@@ -601,7 +665,7 @@ footer p {
     }
 /*tipography*/
 
-h2 {
+#footer .h2 {
   font-family: 'Muli', sans-serif;
     font-weight: bold;
     line-height: inherit;
@@ -609,7 +673,7 @@ h2 {
     font-size: 2em;
     padding-bottom: 10px;
 }
-p {
+#footer .p {
     color: #757575;
     font-size: 14px;
     font-weight: normal;
