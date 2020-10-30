@@ -26,9 +26,11 @@ body {
       
   }
   h3 a {
-    color:yellowgreen;
+    color:#3f51b5;
     text-decoration:underline;
   }
+    h3 a:hover{color:#29ca8e}
+  
   p {
     color: #757575;
     font-size: 14px;
@@ -46,7 +48,7 @@ body {
     font-weight: bold;
     line-height: inherit;
   }
-}
+
 .section-title small{
     display: block;
 }
@@ -257,10 +259,10 @@ height: 30px;}
 }
 
 /*our teachers*/
-#our-teachers{padding-top: 60px;}
+#our-teachers{padding-top: 70px;}
 
 /*coursese*/
-#courses {padding-top: 60px;}
+#courses {padding-top: 70px;}
 #courses .section-title{
     text-align: center;
 }
@@ -374,161 +376,17 @@ margin-top:10px;
     }    
 .img-fluid{max-width: 100%;
 height: auto;}
-/* .custom-navbar {
-    background: #ffffff;
-    border-top: 5px solid #29ca8e;
-    border-bottom: 0;
-    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-    padding: 12px 0;
-    margin-bottom: 0;
-    padding: 0;
-}
- 
-.custom-navbar.navbar-brand {
-    color: #2b2929;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 40px;
-}
-  
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none;
-    }
-}
-.navbar-nav.navbar-right li a .fa {
-    background: #29ca8e;
-    border-radius: 100%;
-    color: #ffffff;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    display: inline-block;
-    margin-right: 5px;
-}
- 
-.custom-navbar .nav li a {
-    line-height: 40px;
-    color: #252424;
-    padding-right: 22px;
-    padding-left: 22px;
-}
- 
-.custom-navbar .navbar-nav > li > a:hover,
-.custom-navbar .navbar-nav > li > a:focus {
-    background-color: transparent;
-}
- 
-.custom-navbar .nav li a:hover {
-    background-color: #29ca8e;
-    color: #ffffff;
-}
- 
-.custom-navbar .nav li.active > a {
-    background-color: #29ca8e;
-    color: #ffffff;
-}
- 
-.custom-navbar .navbar-toggle {
-    border: none;
-    padding-top: 10px;
-}
- 
-.custom-navbar .navbar-toggle {
-    background-color: transparent;
-}
- 
-.custom-navbar .navbar-toggle .icon-bar {
-    background: #252525;
-    border-color: transparent;
-}
-
-.icone-bar {
-  color:#29ca8e; */
-
-
-
-
-/*slider*/
-/* 
-.navbar{
-    height: 60px;
-}
-.social-icon{
-    position: relative;
-    padding:0;
-    margin:0;
-}
-.social-icon li{
-    display:inline-block;
-    list-style: none;
-    margin-bottom: 5px;
-}
-.social-icon li a{
-    border-radius:100px;
-    color:#29ca8e;
-    font-size: 15px;
-    widows: 35px;
-    height:35px;
-    line-height: 35px;
-    text-decoration:none;
-    text-align: center;
-    transition: all 0.4s ease-in-out;
-    position: relative;
-    margin:5px 5px 5px 0;
-    }
-.social-icon li a:hover{
-    background:#29ca8e;
-    color:#ffffff;
-}    
-.section-title{
-    text-align: center;
-}
-
-
-.container{
-padding-left: 20px;
-    padding-right: 20px ;
-
-}
-
-
-картинки курсов
-.section-title{
-    padding-bottom: 40px;
-}
-.section-title h2{
-    margin: 0;
-}
-.section-title small{
-    display: block;
-}
-.section{
-    position: relative;
-    padding: 100px 0;
-} */
-
 
     /*contact us*/
     #contact .container{padding-top: 100px;}
     #contact .row {
     background: rgb(42, 42, 248);
+    border-radius: 5px;
     }
     #contact .section-title{
         margin:20px 50% 20px 15px;
         border:solid yellowgreen 3px;
+        border-radius: 3px;
     }
     #contact .section-title h2{
     color: white;
@@ -547,17 +405,21 @@ padding-left: 20px;
         {border-radius: 50px;
         border: 1px solid transparent;}
     #contact-form input[type="submit"]:hover{
-        background: transparent;
+        background: #29ca8e;
         border-color: #ffffff;
-        color: #d31e1e;}
+        color:wheat;}
 .contact-image{width: 100%;
-    height: auto;}  
+    height: auto;
+    margin-top: 20px;
+}  
 .contact-image img{display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
 width:100%}      
        
 
     /*msap*/
-
+#map{padding-top:70px;}
     .map{
         margin:0;
         padding:0;
@@ -598,9 +460,13 @@ footer p {
     padding: 0;
 }
     .footer_menu li {
-        display: inline-block;
-        list-style: none;
-        margin: 5px 10px 5px 0;}
+        color: #29ca8e;
+    }
+    .footer_menu li a {
+        color:#909090;
+    }  
+        
+
     .newsletter-form .form-control{
         background: transparent;
         border-radius: 0;
